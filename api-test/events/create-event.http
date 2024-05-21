@@ -1,0 +1,10 @@
+POST http://localhost:8000/events
+content-type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxldmFuaUBnbWFpbC5jb20iLCJleHAiOjE3MTYzMDkzMTksInVzZXJJZCI6MX0.zYmaywZInch45ML1f1TCzoiErpmy1FXH8cJ2jE5s7vk
+
+{
+    "name": "Test event for reg",
+    "description": "A test event description",
+    "location": "Tbilisi, Georgia",
+    "dateTime": "2025-01-01T15:30:00.000Z"
+}
